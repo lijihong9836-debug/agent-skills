@@ -1,0 +1,4 @@
+interface:
+  display_name: "Craft Codex Prompts"
+  short_description: "Write and review high-quality Codex agent prompts"
+  default_prompt: "Use $craft-codex-prompts to draft or review this Codex agent prompt."
