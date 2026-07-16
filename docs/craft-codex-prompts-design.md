@@ -68,7 +68,7 @@ When a Skill contains a reusable task-prompt template, apply both without duplic
 ## Design decisions
 
 - The Skill is model-invoked because agents should discover it during prompt drafting and review work.
-- The body stays in one file because all three branches need the same contract model and checklist; splitting would add navigation without reducing branch load.
-- The distributable Skill contains only `SKILL.md` and UI metadata. Repository rationale remains under `docs/` so installation does not load maintenance history.
+- The shared contract model and its four completion-gated steps stay in `SKILL.md`. Branch-specific prompt structure and review detail sit behind explicit context pointers in `references/`, reducing the primary instruction load without hiding required core behavior.
+- The distributable Skill contains only runtime instructions, conditional references, and UI metadata. Repository rationale remains under `docs/` so installation does not load maintenance history.
 - Absolute language is limited to invariants; contextual decisions use explicit condition-action rules.
 - Optimization is behavior-preserving and evaluation-driven. Lower token use is not considered an improvement when correctness, evidence, or required delivery regresses.
