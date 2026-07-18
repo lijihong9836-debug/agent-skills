@@ -26,6 +26,8 @@ agent-skills/
 | [`craft-codex-prompts`](skills/craft-codex-prompts/) | Draft, review, and optimize agent-facing prompts for Codex. |
 | [`karpathy-guidelines`](skills/karpathy-guidelines/) | Keep coding work simple, surgical, and verifiable. |
 
+Selected high-frequency third-party mirrors and their source/license status are documented in [docs/third-party-skills.md](docs/third-party-skills.md).
+
 ## Install or reference a Skill
 
 Install a single Skill with Codex's built-in installer:
