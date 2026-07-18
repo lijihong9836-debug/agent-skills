@@ -24,6 +24,7 @@ agent-skills/
 | Skill | Purpose |
 | --- | --- |
 | [`craft-codex-prompts`](skills/craft-codex-prompts/) | Draft, review, and optimize agent-facing prompts for Codex. |
+| [`karpathy-guidelines`](skills/karpathy-guidelines/) | Keep coding work simple, surgical, and verifiable. |
 
 ## Install or reference a Skill
 
