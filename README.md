@@ -25,6 +25,7 @@ agent-skills/
 | --- | --- |
 | [`craft-codex-prompts`](skills/craft-codex-prompts/) | Draft, review, and optimize agent-facing prompts for Codex. |
 | [`karpathy-guidelines`](skills/karpathy-guidelines/) | Keep coding work simple, surgical, and verifiable. |
+| [`磨刀石`](skills/磨刀石/) | Challenge and refine ideas while preserving the user's judgment and cognitive friction. |
 
 Selected high-frequency third-party mirrors and their source/license status are documented in [docs/third-party-skills.md](docs/third-party-skills.md).
 

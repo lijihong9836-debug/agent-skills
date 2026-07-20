@@ -1,0 +1,7 @@
+interface:
+  display_name: "磨刀石"
+  short_description: "用追问和反驳打磨观点，保留认知摩擦"
+  default_prompt: "Use $磨刀石 to help me challenge and refine my rough idea before accepting an AI-generated answer."
+
+policy:
+  allow_implicit_invocation: true

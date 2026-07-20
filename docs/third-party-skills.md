@@ -25,6 +25,7 @@
 | [`to-spec`](../skills/to-spec/) | 2 | [mattpocock/skills](https://github.com/mattpocock/skills/tree/9603c1cc8118d08bc1b3bf34cf714f62178dea3b/skills/engineering/to-spec) | MIT | 已复制，保留上游许可证 |
 | [`setup-matt-pocock-skills`](../skills/setup-matt-pocock-skills/) | 2 | [mattpocock/skills](https://github.com/mattpocock/skills/tree/9603c1cc8118d08bc1b3bf34cf714f62178dea3b/skills/engineering/setup-matt-pocock-skills) | MIT | 已复制，保留上游许可证 |
 | [`domain-modeling`](../skills/domain-modeling/) | 2 | [mattpocock/skills](https://github.com/mattpocock/skills/tree/9603c1cc8118d08bc1b3bf34cf714f62178dea3b/skills/engineering/domain-modeling) | MIT | 已复制，保留上游许可证 |
+| [`磨刀石`](../skills/磨刀石/) | 手动同步 | [crazyooo/modaoshi](https://github.com/crazyooo/modaoshi/tree/c1fdc74f55541f49d5fcfd7ca40fc7338f99ecdb/skills/磨刀石) | MIT | 已复制，保留上游许可证副本 `skills/磨刀石/LICENSE.txt` |
 
 `craft-codex-prompts` 和 `karpathy-guidelines` 属于本仓库已有的个人 Skill，不计入上述第三方镜像表。
 
