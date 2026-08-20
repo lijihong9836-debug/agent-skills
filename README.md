@@ -27,6 +27,7 @@ agent-skills/
 | [`credit-negative-monitoring`](skills/credit-negative-monitoring/) | Collect and verify credit-counterparty negative information with traceable sources. |
 | [`karpathy-guidelines`](skills/karpathy-guidelines/) | Keep coding work simple, surgical, and verifiable. |
 | [`storage-analyzer`](skills/storage-analyzer/) | Produce a safe, read-only storage analysis with recoverable cleanup options. |
+| [`writing-great-skills`](skills/writing-great-skills/) | Reference the principles and vocabulary for writing predictable, maintainable Skills. |
 | [`磨刀石`](skills/磨刀石/) | Challenge and refine ideas while preserving the user's judgment and cognitive friction. |
 
 Selected high-frequency third-party mirrors and their source/license status are documented in [docs/third-party-skills.md](docs/third-party-skills.md).
