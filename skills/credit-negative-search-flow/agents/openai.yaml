@@ -1,0 +1,4 @@
+interface:
+  display_name: "负面信息检索与证据流程"
+  short_description: "按名单与月份开展联网检索、DM匹配、证据核验及归集回写对账。"
+  default_prompt: "使用 $credit-negative-search-flow，按我指定的数据源、监测主体与月份选择工作模式，完成证据核验和双向对账，并交付到本次要求的阶段。"
