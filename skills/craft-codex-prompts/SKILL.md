@@ -7,7 +7,7 @@ description: Contract design for Codex task prompts. Use to draft a prompt from 
 
 Treat a Codex prompt as an executable **contract**: define the destination, proof, and operating boundaries while leaving routine implementation choices to the agent.
 
-Use `writing-great-skills` instead when the artifact is a Skill's invocation, information hierarchy, or packaging. Use this Skill for a task prompt embedded in or produced by that Skill.
+Use `writing-for-agents` instead when the artifact is a Skill's invocation, information hierarchy, or packaging. Use this Skill for a task prompt embedded in or produced by that Skill.
 
 ## 1. Scope the contract
 
