@@ -11,11 +11,11 @@ It is not a general prompt-writing guide for ordinary users and does not own Ski
 The design draws on two inputs:
 
 - OpenAI's [Prompting guidance for GPT-5.6](https://developers.openai.com/api/docs/guides/prompt-guidance-gpt-5p6), especially outcome-first contracts, completion and stop conditions, lean prompts, autonomy boundaries, contextual tool routing, grounding, long-running state, and validation.
-- The existing `writing-great-skills` reference, especially predictability, checkable completion criteria, information hierarchy, progressive disclosure, single-source-of-truth pruning, duplication and no-op detection, positive steering, and premature-completion diagnosis.
+- The existing `writing-for-agents` reference, especially predictability, checkable completion criteria, information hierarchy, progressive disclosure, single-source-of-truth pruning, duplication and no-op detection, positive steering, and premature-completion diagnosis.
 
 The Skill converts those ideas into operational drafting rules, a reusable prompt template, and a review checklist. It intentionally does not reproduce the official guide's prose, benchmark narrative, API migration advice, or model-specific feature catalog.
 
-## What is reused from `writing-great-skills`
+## What is reused from `writing-for-agents`
 
 | Reused concept | Application here |
 | --- | --- |
@@ -30,7 +30,7 @@ The Skill converts those ideas into operational drafting rules, a reusable promp
 
 ## What is adjusted
 
-| `writing-great-skills` concern | Adjustment for agent prompts |
+| `writing-for-agents` concern | Adjustment for agent prompts |
 | --- | --- |
 | Skill invocation and descriptions | Out of scope here; prompts are already in the active task context. |
 | Skill steps versus reference | Reframed as task contract versus retrievable context and source authority. |
@@ -55,13 +55,13 @@ The new Skill adds concerns that are central to Codex task prompts but not the r
 
 ## Responsibility boundary
 
-Use `writing-great-skills` when the artifact being designed is a Skill: its invocation behavior, frontmatter description, information hierarchy, progressive disclosure, granularity, and maintenance discipline.
+Use `writing-for-agents` when the artifact being designed is a Skill: its invocation behavior, frontmatter description, information hierarchy, progressive disclosure, granularity, and maintenance discipline.
 
 Use `craft-codex-prompts` when the artifact being designed is an instruction set for Codex to execute a task: its outcome, scope, authority, evidence, tools, failures, stopping behavior, and delivery contract.
 
 When a Skill contains a reusable task-prompt template, apply both without duplicating ownership:
 
-1. Let `writing-great-skills` govern the Skill package and where the template lives.
+1. Let `writing-for-agents` govern the Skill package and where the template lives.
 2. Let `craft-codex-prompts` govern the embedded template's task contract.
 3. Keep shared concepts, such as completion criteria or pruning, in the owning layer and reference them rather than restating them across files.
 

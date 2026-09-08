@@ -60,4 +60,4 @@
 
 正式监测表的事项数量和机构罚没合计只统计实际列示事项。没有符合列示条件的事项时，填写 `本期未发现影响正常经营及交易的重大事项`，基本结论填写 `维持不变`。该表述表示没有达到正式列示标准，不表示来源归集表不存在一般处罚。
 
-项目共享执行真源为 `tools/monthly_monitoring_policy.py` 和 `tools/monthly_monitoring_categories.py`。机构名称未命中精确法人或父级映射时停止并列为人工确认，不按名称猜测或默认归入“其他金融机构”。
+项目提供并核验共享实现时，使用 `tools/monthly_monitoring_policy.py` 和 `tools/monthly_monitoring_categories.py` 执行本规则；工具缺失时仍按上述规则逐项记录判断及依据。机构名称未命中精确法人或父级映射时停止并列为人工确认，不按名称猜测或默认归入“其他金融机构”。
