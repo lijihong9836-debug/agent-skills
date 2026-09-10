@@ -1,0 +1,4 @@
+interface:
+  display_name: "ELI5 · 看图就懂"
+  short_description: "把不理解的概念变成大图少字的可视化网页，用生活例子一步步讲清楚"
+  default_prompt: "使用 $eli5，把我不理解的内容做成大图少字的可视化网页，像给五岁小孩解释一样讲清楚。"

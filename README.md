@@ -29,6 +29,7 @@ agent-skills/
 | [`credit-negative-monitoring`](skills/credit-negative-monitoring/) | Apply evidence, listing, writeback, and workbook quality rules for credit monitoring. |
 | [`credit-negative-search-flow`](skills/credit-negative-search-flow/) | Search or match DM evidence by subject and month, reconcile sources, and hand off verified updates. |
 | [`domain-modeling`](skills/domain-modeling/) | Maintain shared domain language, CONTEXT.md, and architecture decisions. |
+| [`eli5`](skills/eli5/) | Turn a hard-to-follow idea into a big-picture, plain-language HTML explainer. |
 | [`handoff`](skills/handoff/) | Write a portable handoff for another agent session. |
 | [`implement`](skills/implement/) | Implement a scoped ticket or spec through a complete vertical slice. |
 | [`karpathy-guidelines`](skills/karpathy-guidelines/) | Keep coding work simple, surgical, and verifiable. |
