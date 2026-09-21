@@ -23,16 +23,25 @@ agent-skills/
 
 | Skill | Purpose |
 | --- | --- |
+| [`agent-reach`](skills/agent-reach/) | Route internet research to platform-specific CLIs and APIs. |
 | [`ask-matt`](skills/ask-matt/) | Navigate Matt Pocock's engineering and productivity workflows. |
 | [`code-review`](skills/code-review/) | Review changes against repository standards and the originating spec. |
+| [`codebase-design`](skills/codebase-design/) | Design deep modules with clear interfaces and testable seams. |
 | [`craft-codex-prompts`](skills/craft-codex-prompts/) | Draft, review, and optimize agent-facing prompts for Codex. |
 | [`credit-negative-monitoring`](skills/credit-negative-monitoring/) | Apply evidence, listing, writeback, and workbook quality rules for credit monitoring. |
 | [`credit-negative-search-flow`](skills/credit-negative-search-flow/) | Search or match DM evidence by subject and month, reconcile sources, and hand off verified updates. |
+| [`diagnosing-bugs`](skills/diagnosing-bugs/) | Diagnose hard bugs with a reproducible feedback loop and a targeted fix. |
 | [`domain-modeling`](skills/domain-modeling/) | Maintain shared domain language, CONTEXT.md, and architecture decisions. |
 | [`handoff`](skills/handoff/) | Write a portable handoff for another agent session. |
 | [`implement`](skills/implement/) | Implement a scoped ticket or spec through a complete vertical slice. |
 | [`karpathy-guidelines`](skills/karpathy-guidelines/) | Keep coding work simple, surgical, and verifiable. |
+| [`neat-freak`](skills/neat-freak/) | Reconcile project documentation and audit documented workspace conventions. |
+| [`no-negative-echo`](skills/no-negative-echo/) | Keep final artifacts focused on accepted results after revisions. |
+| [`officecli`](skills/officecli/) | Read and edit Office documents through the OfficeCLI command-line tool. |
 | [`pdf`](skills/pdf/) | Read, create, and review PDFs with rendering and visual checks. |
+| [`playwright`](skills/playwright/) | Automate browser workflows through the Playwright CLI. |
+| [`prototype`](skills/prototype/) | Build disposable logic or UI prototypes to answer a design question. |
+| [`research`](skills/research/) | Investigate primary sources and save cited findings in a project. |
 | [`setup-matt-pocock-skills`](skills/setup-matt-pocock-skills/) | Configure issue tracking and domain documentation for engineering workflows. |
 | [`storage-analyzer`](skills/storage-analyzer/) | Produce a safe, read-only storage analysis with recoverable cleanup options. |
 | [`to-spec`](skills/to-spec/) | Turn an agreed conversation into a project specification. |
@@ -64,6 +73,8 @@ Start a new Codex task after installation if the Skill is not visible in the cur
 Install `credit-negative-monitoring` and `credit-negative-search-flow` together for the complete credit evidence workflow. Their `tools/` references describe optional integrations in the target business project; the Skills include the rules and reference documents.
 
 The Matt Pocock entries are selected mirrors. Their workflow references may require additional Skills from the [upstream collection](https://github.com/mattpocock/skills); this repository does not bundle the entire upstream suite.
+
+Mirrors preserve the local versions identified in the [source inventory](docs/third-party-skills.md), which may differ from the latest upstream release. Install external tools separately: `agent-reach` routes to platform clients, `officecli` requires OfficeCLI, and `playwright` requires Bash and Node.js/npx. Review the selected Skill's prerequisites before running its workflow; copying a Skill does not install tools, configure accounts, or authorize external actions.
 
 Agents may also reference a Skill directly from a checked-out path when testing or reviewing it.
 

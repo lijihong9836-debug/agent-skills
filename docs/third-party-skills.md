@@ -1,16 +1,34 @@
 # 第三方技能来源与安装清单
 
-本清单按最近 30 个任务摘要统计。次数表示该技能出现在多少个任务摘要中，不等同于精确的单次调用次数；本次纳入阈值为至少 2 个任务摘要。
+本清单记录各次收录时的来源与许可证。下方“2026-09-08 收录快照”按当时最近 30 个任务摘要统计，次数不等同于精确调用次数；2026-09-21 新增项按近一周会话中的显式 Skill 文件引用筛选，并逐文件核对公开上游。
 
 ## 复制规则
 
 - 个人编写的 Skill 可直接维护在本仓库。
 - 已核实为 MIT 的 Matt Pocock Skills，复制时保留上游许可证，仓库级许可证副本位于 [`docs/third-party/mattpocock-skills/LICENSE`](third-party/mattpocock-skills/LICENSE)，每个分发目录同时携带 `LICENSE.txt`，便于单独安装。
-- OpenAI 的 `pdf` Skill 保留其随包提供的 Apache 2.0 许可证，位于 [`skills/pdf/LICENSE.txt`](../skills/pdf/LICENSE.txt)。
+- OpenAI 的 `pdf` 和 `playwright` Skill 保留各自随包提供的 Apache 2.0 许可证；`playwright` 同时保留 `NOTICE.txt`。
 - 未声明许可证、专有许可证或业务私有内容不复制源码，只记录来源或继续使用原安装。
 - 根目录的 MIT 许可证不自动覆盖第三方镜像；第三方文件以其上游许可证为准。
 
-## 高频技能
+## 2026-09-21 新增镜像
+
+以下来源文件与对应固定提交逐一匹配，文本比较统一 CRLF/LF。每个目录均附带 `LICENSE.txt`；OfficeCLI 和 Playwright 同时保留上游 NOTICE。分发副本保留本地已使用版本的内容，仅清理 `agent-reach/references/dev.md` 第 3 行的一个行末空格。
+
+| Skill | 固定来源 | 许可证 |
+| --- | --- | --- |
+| [`agent-reach`](../skills/agent-reach/) | [Panniantong/Agent-Reach @ e4c31b2](https://github.com/Panniantong/Agent-Reach/tree/e4c31b29b1828d196e2930cca9d5f7dfb154f251/agent_reach/skill) | MIT |
+| [`codebase-design`](../skills/codebase-design/) | [mattpocock/skills @ c55ee46](https://github.com/mattpocock/skills/tree/c55ee46073ed923f86ce59a5eb3b6d895095d1b7/skills/engineering/codebase-design) | MIT |
+| [`diagnosing-bugs`](../skills/diagnosing-bugs/) | [mattpocock/skills @ c55ee46](https://github.com/mattpocock/skills/tree/c55ee46073ed923f86ce59a5eb3b6d895095d1b7/skills/engineering/diagnosing-bugs) | MIT |
+| [`neat-freak`](../skills/neat-freak/) | [KKKKhazix/khazix-skills @ d4e43c9](https://github.com/KKKKhazix/khazix-skills/tree/d4e43c91f16dcd859748c1d71ec7d8aa1ebb4694/neat-freak) | MIT |
+| [`no-negative-echo`](../skills/no-negative-echo/) | [LB623/no-negative-echo @ eba9f1d](https://github.com/LB623/no-negative-echo/tree/eba9f1d2b4c19e699786a49427189988ad6d8d65/no-negative-echo) | MIT |
+| [`officecli`](../skills/officecli/) | [iOfficeAI/OfficeCLI @ dced0d7](https://github.com/iOfficeAI/OfficeCLI/tree/dced0d74ff85b1fef0b777efcdb637c2c4ef8a6e/skills/officecli) | Apache 2.0 |
+| [`playwright`](../skills/playwright/) | [openai/skills @ 49f948f](https://github.com/openai/skills/tree/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/playwright) | Apache 2.0 |
+| [`prototype`](../skills/prototype/) | [mattpocock/skills @ c55ee46](https://github.com/mattpocock/skills/tree/c55ee46073ed923f86ce59a5eb3b6d895095d1b7/skills/engineering/prototype) | MIT |
+| [`research`](../skills/research/) | [mattpocock/skills @ c55ee46](https://github.com/mattpocock/skills/tree/c55ee46073ed923f86ce59a5eb3b6d895095d1b7/skills/engineering/research) | MIT |
+
+`agent-reach` 和 `neat-freak` 对应已核实的历史版本；上游已有后续改动，此处不表示已升级到最新版本。依赖工具和宿主能力仍须在安装设备上核对。完整范围与验证结果见 [2026-09-21 维护记录](maintenance-20260921.md)。
+
+## 2026-09-08 收录快照
 
 | Skill | 近期任务摘要 | 上游来源 | 许可状态 | 本仓库处理 |
 | --- | ---: | --- | --- | --- |
